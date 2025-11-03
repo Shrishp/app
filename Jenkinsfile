@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git 'https://github.com/yourusername/docker-ci-demo.git'
+        git 'https://github.com/Shrishp/docker-ci-demo.git'
       }
     }
 
