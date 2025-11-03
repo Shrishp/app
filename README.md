@@ -10,7 +10,7 @@ The pipeline automatically fetches code from GitHub, builds a Docker image, push
 
 Here’s what happens when code is pushed to GitHub:
 
-1. Jenkins automatically triggers a build (via webhook or manual trigger).  
+1. Jenkins automatically triggers a build (via webhook).  
 2. Jenkins pulls the latest source code from GitHub.  
 3. The application is built or tested (if required).  
 4. Jenkins builds a Docker image using the project’s `Dockerfile`.  
